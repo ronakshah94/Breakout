@@ -3,9 +3,7 @@ package Assignment3;
 /*
  * File: Breakout.java
  * -------------------
- * Name:
- * Section Leader:
- * 
+ * Name: Ronak Shah
  * This file will eventually implement the game of Breakout.
  */
 
