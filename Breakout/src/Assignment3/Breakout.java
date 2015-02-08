@@ -70,6 +70,11 @@ public class Breakout extends GraphicsProgram implements MouseListener, MouseMot
 	}
 	/*sets up the various components of the game */
 	public void setup(){
+	/* Set game board size. */
+	setSize(WIDTH,HEIGHT);
+	/* Pause for frame re-render. */
+	pause(1000);
+	//
 	setBricks();
 	createPaddle();
 	this.addMouseListeners();
